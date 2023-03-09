@@ -35,7 +35,7 @@ public class Driver {
 
             }
 
-            driver.get(Utilities.Constants.URL);
+            driver.get(Constants.URL);
             setUpWindow();
             PageInitialized.init();
 
