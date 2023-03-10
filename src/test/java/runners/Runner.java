@@ -12,17 +12,13 @@ import org.junit.runner.RunWith;
                 "html:target/report.html",
                 "json:target/cucumber.json"
         },
-        features= "src/test/resources/features/home.feature",
+        features= "src/test/resources/features/header.feature",
         glue = "Stepdefinitions",
         monochrome = true,
         dryRun = false
-        //,tags = ""
+
+        //tags = "@Test1"
 )
-
-
-
-
-
 
 
 public class Runner {

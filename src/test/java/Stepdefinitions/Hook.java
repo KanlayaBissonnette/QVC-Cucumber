@@ -8,8 +8,7 @@ import org.junit.Before;
 
 public class Hook extends Driver {
 
-    @
-            Before
+    @Before
     public void setUp() {
         getDriver();
     }
